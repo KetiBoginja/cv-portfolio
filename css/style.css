@@ -82,7 +82,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(/Users/kale/Desktop/cv_portfolio/images/profile-cover-new.png) no-repeat;
+    background: url(images/profile-cover-new.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
