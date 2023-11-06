@@ -142,6 +142,7 @@ section {
 }
 
 .home-content p {
+    position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
@@ -277,6 +278,7 @@ section {
 }
 
 .heading {
+    position: relative;
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -672,6 +674,10 @@ span {
     z-index: 98;
 }
 
+.animate.home-img {
+    width: 50%;
+}
+
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
@@ -679,6 +685,18 @@ span {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
+
+/* .animate.scroll {
+    transition: 1s ease;
+    animation-delay: calc(.3s / var(--i));
+}
+
+.about.show-animate .animate.scroll{
+    animation-delay: calc(.3s * var(--i));
+    width: 0;
+    animation: none;
+} */
+
 
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
